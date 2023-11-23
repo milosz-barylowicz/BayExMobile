@@ -1,4 +1,4 @@
-name: remove-outdated-github-workflow-runs
+name: delete-outdated-workflow-runs
 
 on:
   schedule:
