@@ -2,12 +2,12 @@ name: remove-outdated-github-workflow-runs
 
 on:
   schedule:
-    - cron:  '0 6 * * SUN'
+    - cron: '0 6 * * SUN'
   workflow_dispatch:
 
 jobs:
   remove-all-runs:
-    runs-on: [ 'ubuntu-22.04' ]
+    runs-on: [ 'ubuntu-24.04' ]
     permissions:
       actions: write
       contents: write
